@@ -1,0 +1,71 @@
+.sobre {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagem-esquerda {
+  position: absolute;
+  left: -650px;
+  overflow: hidden;
+}
+.imagem-direita {
+  position: absolute;
+  right: -200px;
+}
+
+.div-meio {
+  padding-left: 150px;
+  margin-top: 80px;
+  padding-right: 20px;
+}
+.div-meio h2 {
+  width: 130%;
+  margin-bottom: 32px;
+  margin-top: 20px;
+}
+.div-meio .botao-2 {
+  margin-top: 28px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 1050px) {
+  .div-meio .botao-2 {
+    margin-top: 28px;
+    margin-bottom: 80px;
+  }
+  .imagem-esquerda {
+    display: none;
+  }
+  .sobre {
+    grid-template-columns: 1fr;
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-meio {
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-right: 0px;
+    order: 2;
+  }
+  .imagem-direita {
+    position: initial;
+    right: 0px;
+    order: 1;
+    margin-bottom: 40px;
+    justify-self: center;
+  }
+  .div-meio h2 {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 20px;
+  }
+}

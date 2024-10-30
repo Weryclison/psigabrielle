@@ -1,0 +1,53 @@
+.font-1-a {
+  font-family: "Petit Formal Script";
+  font-weight: 400;
+  font-size: 3.125rem;
+  letter-spacing: -2px;
+  color: var(--branco);
+}
+.font-2-a {
+  font-family: "Gilda Display";
+  font-weight: 400;
+  font-size: 3.5rem;
+  letter-spacing: -2px;
+  color: var(--branco);
+}
+.font-3-a {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 170%;
+}
+
+:root {
+  --branco: #ffffff;
+  --claro: #faf2ef;
+  --escuro: #0c130b;
+  --verde-claro: #f3f7f1;
+  --verde-escuro: #505f4d;
+}
+.branco {
+  color: var(--branco);
+}
+.claro {
+  color: var(--claro);
+}
+.escuro {
+  color: var(--escuro);
+}
+
+.verde-claro {
+  color: var(--verde-claro);
+}
+
+.verde-escuro {
+  color: var(--verde-escuro);
+}
+@media (max-width: 1000px) {
+  .font-1-a {
+    font-size: 2rem;
+  }
+  .font-2-a {
+    font-size: 2.5rem;
+  }
+}

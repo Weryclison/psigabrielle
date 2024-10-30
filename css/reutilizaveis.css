@@ -1,0 +1,58 @@
+.container {
+  max-width: 1280px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botao {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--claro);
+  border: 2px solid var(--claro);
+  border-radius: 500px;
+  background-color: transparent;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.botao-2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--verde-escuro);
+  border: 2px solid var(--verde-escuro);
+  border-radius: 500px;
+  background-color: transparent;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.botao:hover {
+  color: var(--verde-escuro);
+  background-color: var(--branco);
+  transition: color 0.5s, background-color 0.5s !important;
+}
+.botao-2:hover {
+  color: var(--claro);
+  background-color: var(--verde-escuro);
+  transition: color 0.5s, background-color 0.5s !important;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 281px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

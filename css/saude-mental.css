@@ -1,0 +1,28 @@
+.saude-mental {
+  margin-top: 80px;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.acolhimento {
+  text-align: center;
+  padding-top: 120px;
+}
+.acolhimento h2 {
+  margin-bottom: 40px;
+}
+.acolhimento p {
+  max-width: 760px;
+  justify-self: center;
+}
+@media (max-width: 1000px) {
+  .saude-mental {
+    grid-template-columns: 1fr;
+    margin-bottom: 80px;
+  }
+  .acolhimento {
+    margin-bottom: 40px;
+    padding-top: 00px;
+  }
+}

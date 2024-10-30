@@ -1,0 +1,59 @@
+.funcionamento {
+  margin-bottom: 120px;
+  position: relative;
+  overflow: hidden !important;
+  margin-top: 200px;
+}
+.funcionamento .botao-2 {
+  display: flex;
+  justify-self: center;
+  margin-top: 40px;
+}
+.funcionamento h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sessao-funciona {
+  position: relative;
+  margin-bottom: 50px;
+  max-width: 410px;
+}
+.sessao-1,
+.sessao-3 {
+  margin-left: 200px;
+}
+.sessao-2 {
+  margin-left: 450px;
+}
+.numero {
+  position: relative;
+  z-index: -1;
+  font-size: 12.5rem;
+  color: #d9e4d3;
+}
+.funcionamento-ttl {
+  margin-top: -120px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .funcionamento {
+    margin-bottom: 80px;
+  }
+  .sessao-1,
+  .sessao-3 {
+    margin-left: 0px;
+  }
+  .sessao-2 {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .acom {
+    font-size: 2rem;
+  }
+  .funcionamento-ttl {
+    margin-left: 10px;
+  }
+}
